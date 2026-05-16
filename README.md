@@ -35,13 +35,15 @@ This should produce an executable version of the file. Run it using:
 
     ./mie_scattering_ensembles
 
-## Code inputs/outputs
+## Code Inputs/Outputs
 
 INPUTS:
 
-    - refractive index of material (as a complex number)
+    - Variables that can be changed directly within "mie_scattering_ensembles.c"
+    
+        - refractive index of material (as a complex number)
 
-    - wavelength of light used (units: um)
+        - wavelength of light (units: um)
 
     - "size_distribution.txt" file
 
